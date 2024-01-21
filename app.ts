@@ -1,6 +1,8 @@
 import { Request, Response } from "express";
+import "dotenv/config";
+
 const Express = require("express");
-const port = 4000;
+const port = process.env.PORT;
 
 const app = Express();
 

@@ -12,6 +12,9 @@ dist/
 # Ignore logs
 *.log
 
+#ignore .env
+.env
+
 # Ignore coverage reports
 coverage/
 
